@@ -362,7 +362,7 @@ export default function Dashboard() {
       return "Error en fecha"
     }
   }
-
+  
   const renderContent = () => {
     switch (activeTab) {
       case "inicio":
@@ -533,12 +533,15 @@ export default function Dashboard() {
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                       {formatDate(station.lastReading)}
                     </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                      {typeof station.currentTemperature === "string"
-                        ? station.currentTemperature
-                        : station.currentTemperature.toFixed(1)}
+                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                      {station.currentTemperature !== undefined && station.currentTemperature !== null
+                        ? typeof station.currentTemperature === "string"
+                          ? station.currentTemperature
+                          : station.currentTemperature.toFixed(1)
+                        : "N/A"}
                       °C
                     </td>
+
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                       <div className="flex space-x-2">
                         <button
