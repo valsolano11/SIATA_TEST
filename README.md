@@ -28,6 +28,45 @@ El **dashboard** y la **tabla de estaciones** permiten una gestión clara y orga
 - ESLint 9 y configuración de Next.js
 - Tipos para Node y React
 
+## Instalación y Ejecución Paso a Paso
+Sigue estos pasos para tener el proyecto corriendo en tu entorno local:
+
+1. Clonar el repositorio
+git clone https://github.com/valsolano11/SIATA_TEST.git
+
+2. Entrar al directorio del proyecto
+cd auth-system
+
+3. Instalar las dependencias
+npm install
+
+4. Ejecutar el proyecto en modo desarrollo
+npm run dev
+La aplicación estará disponible en http://localhost:3000
+
+5. Construir para producción (opcional)
+npm run build
+npm start
+Esto compilará la aplicación y la dejará lista para ejecutarse en un entorno de producción.
+
+## Decisiones de Diseño
+- SPA con React y Next.js: Navegación rápida y fluida sin recargar la página.
+- Context API: Manejo simple de estado global y autenticación.
+- Tailwind CSS: Diseño moderno, responsivo y fácil de mantener.
+- Dashboard y tablas: Mejora la visualización de datos de estaciones y usuarios.
+- Componentes reutilizables: Formularios, alertas y modales mantienen consistencia y escalabilidad.
+- Responsive y UX optimizado: La interfaz se adapta a cualquier dispositivo y prioriza la experiencia del usuario.
+- Control de Versiones
+
+## El proyecto se gestiona mediante Git, con un historial de commits claro y descriptivo:
+
+chore: configuraciones y archivos base.
+feat: nuevas funcionalidades y componentes.
+style: cambios de diseño y estilos.
+fix: correcciones de errores.
+
+## Proyecto desarrollado por Valentina Solano Cárdenas, enfocado en prácticas de React, Next.js, desarrollo moderno de SPA, experiencia de usuario, diseño responsivo y buenas prácticas de control de versiones.
+
 **Archivo `package.json`:**
 ```json
 {
@@ -59,54 +98,4 @@ El **dashboard** y la **tabla de estaciones** permiten una gestión clara y orga
   }
 }
 
-## Instalación y Ejecución Paso a Paso
 
-Sigue estos pasos para tener el proyecto corriendo en tu entorno local:
-
-1. Clonar el repositorio
-git clone https://github.com/valsolano11/SIATA_TEST.git
-
-2. Entrar al directorio del proyecto
-cd auth-system
-
-3. Instalar las dependencias
-npm install
-
-4. Ejecutar el proyecto en modo desarrollo
-npm run dev
-
-
-La aplicación estará disponible en http://localhost:3000
-5. Construir para producción (opcional)
-npm run build
-npm start
-
-
-Esto compilará la aplicación y la dejará lista para ejecutarse en un entorno de producción.
-
-Decisiones de Diseño
-
-SPA con React y Next.js: Navegación rápida y fluida sin recargar la página.
-
-Context API: Manejo simple de estado global y autenticación.
-
-Tailwind CSS: Diseño moderno, responsivo y fácil de mantener.
-
-Dashboard y tablas: Mejora la visualización de datos de estaciones y usuarios.
-
-Componentes reutilizables: Formularios, alertas y modales mantienen consistencia y escalabilidad.
-
-Responsive y UX optimizado: La interfaz se adapta a cualquier dispositivo y prioriza la experiencia del usuario.
-Control de Versiones
-
-El proyecto se gestiona mediante Git, con un historial de commits claro y descriptivo:
-
-chore: configuraciones y archivos base.
-
-feat: nuevas funcionalidades y componentes.
-
-style: cambios de diseño y estilos.
-
-fix: correcciones de errores.
-
-Proyecto desarrollado por Valentina Solano Cárdenas, enfocado en prácticas de React, Next.js, desarrollo moderno de SPA, experiencia de usuario, diseño responsivo y buenas prácticas de control de versiones.
