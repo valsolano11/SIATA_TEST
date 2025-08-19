@@ -64,6 +64,9 @@ chore: configuraciones y archivos base.
 feat: nuevas funcionalidades y componentes.
 style: cambios de diseño y estilos.
 fix: correcciones de errores.
+## Despliegue
+https://siata.netlify.app/
+https://siata-test.onrender.com/
 
 ## Proyecto desarrollado por Valentina Solano Cárdenas, enfocado en prácticas de React, Next.js, desarrollo moderno de SPA, experiencia de usuario, diseño responsivo y buenas prácticas de control de versiones.
 
